@@ -1,0 +1,49 @@
+@media screen and (min-width: 500px) {
+  .tab1,
+  .tab2,
+  .tab3,
+  .tab4 {
+    border: 2px solid orange;
+    width: 190px;
+    height: 170px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+  }
+
+  .tab1 {
+    margin-top: 549px;
+    order: 4;
+  }
+
+  .tab2 {
+    margin-top: 183px;
+    order: 2;
+  }
+
+  .tab3 {
+    margin-top: 366px;
+    order: 3;
+  }
+
+  .tab4 {
+    order: 1;
+  }
+}
+@media screen and (max-width: 500px) {
+  .tab1,
+  .tab2,
+  .tab3,
+  .tab4 {
+    border: 2px solid greenyellow;
+    width: 190px;
+    height: 170px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+}
